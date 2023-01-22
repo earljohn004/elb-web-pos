@@ -26,8 +26,11 @@ const SubTotal = () => {
           />
         </Grid>
         <Grid item xs={12}>
-          <Button variant="contained" fullWidth>
+          <Button sx={{ marginBottom: 2 }} variant="contained" fullWidth>
             Make Purchase
+          </Button>
+          <Button color="error" variant="contained" fullWidth>
+            Clear All
           </Button>
         </Grid>
       </Grid>
